@@ -1,0 +1,83 @@
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    color: yellow;
+    text-align: center;
+}
+.inline-block{
+    width: 300px;
+    height: 325px;
+    box-shadow: -2px -2px 6px black;
+}
+img{
+    width: 300px;
+    height: 175px;
+}
+.project{
+    text-align: center;
+    background-color: yellow;
+}
+.main1, .main2, .main3{
+    overflow: hidden;
+}
+.background1{
+    position: absolute;
+    width: 300px;
+    height: 325px;
+    top: -25em;
+    left: 6.9em;
+    transition: all 1s;
+    background-image: url("./Megacity.jpeg");
+    background-size: cover;
+}
+.background2{
+    position: absolute;
+    width: 300px;
+    height: 325px;
+    top: -25em;
+    left: 38.6em;
+    transition: all 1s;
+    background-image: url("./sky-photo.jpeg");
+    background-size: cover;
+}
+.background3{
+    position: absolute;
+    width: 300px;
+    height: 325px;
+    top: -25em;
+    left: 70.3em;
+    transition: all 1s;
+    background-image: url("./Crain.jpeg");
+    background-size: cover;
+}
+.Describing{
+    background-color: rgba(128, 128, 128, 0.413);
+    width: 300px;
+    height: 325px;
+    position: absolute;
+}
+.main1:hover{
+    .background1{
+        top: 5.1em;
+        left: 6.9em;
+    }
+}
+.main2:hover{
+    .background2{
+        top: 5em;
+        left: 38.6em;
+    }
+}
+.main3:hover{
+    .background3{
+        top: 5em;
+        left: 70.3em;
+    }
+}
+.center{
+    text-align: center;
+}

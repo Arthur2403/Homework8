@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+}
+.z-1{
+    width: 455px;
+    height: 450px;
+    z-index: 1;
+    border-top: 15px solid pink;
+    border-bottom: 15px solid pink;
+    position: absolute;
+    top: 130px;
+    transform: rotate(45deg);
+}
+.z-3{
+    width: 480px;
+    height: 450px;
+    z-index: 3;
+    top: 130px;
+    border-top: 15px solid pink;
+    border-bottom: 15px solid pink;
+    position: absolute;
+    transform: rotate(-45deg);
+}
